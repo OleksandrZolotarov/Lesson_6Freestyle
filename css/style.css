@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800display&swap);
+
+@font-face {
+	font-family: "MysticalWoodsRoughScript";
+	src: url("../fonts/MysticalWoodsRoughScript.woff2") format("woff2"), url(../fonts/MysticalWoodsRoughScript.woff) format("woff");
+}
+
+body {
+	font-family: Sono, serif;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: oblique;
+	line-height: 1.5;
+
+}
+
+div.img {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+/* img {
+	max-width: 100%;
+} */
+
+/* Lesson 3 */
+p {
+	color: red;
+
+}
+
+.text-sec2 {
+	color: green;
+}
+
+#section2 {
+	color: yellow;
+}
+
+p.text {
+	color: blue;
+}
+
+.sec3.les4 {
+	color: blue;
+}
+
+p span {
+	text-decoration: underline;
+}
+
+.link .google {
+	text-decoration: overline;
+}
+
+.text1,
+.sec2 {
+	text-decoration: underline;
+}
+
+[class*="sec3"] {
+	text-decoration: overline;
+}
+
+main>p.text.sec2 {
+	font-size: 30px;
+}
+
+p.text1+p {
+	font-weight: 900;
+}
+
+p.daughter~p {
+	text-decoration: line-through;
+}
+
+/* Lesson4 */
+
+.google {
+	font-family: MysticalWoodsRoughScript, fantasy;
+	text-transform: uppercase;
+}
+
+.par1 {
+	color: rgb(37, 37, 65, 0.3);
+	text-align: center;
+	text-shadow: 5px 5px 5px black, -10px -10px 10px black;
+	text-transform: uppercase;
+}
+
+.par2 {
+	text-align: right;
+	text-transform: capitalize;
+	text-indent: 100px;
+	letter-spacing: 10px;
+	word-spacing: 20px;
+	white-space: nowrap;
+}
+
+/* Lesson5 */
+
+.sec5 {
+	padding: 30px 25px 30px 70px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.par2sec5 {
+	width: 500px;
+	height: 200px;
+	margin-bottom: 100px;
+	overflow: auto;
+}
+
+.par3sec5 {
+	max-height: 400px;
+	width: 100%;
+	margin: 100px;
+}
+
+.par4sec5 {
+	width: auto;
+	margin: 100px;
+}
+
+.img-span {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+img.span {
+	max-width: 100%;
+}
+
+/* .span {
+	display: block;
+} */
+
+/* Lesson 6 */
+.par1les6 {
+	border: 15px double blue;
+	border-top: none;
+}
+
+.par2les6 {
+	border-top: 10px dotted yellow;
+	border-right: 15px solid green;
+	border-left: 20px dashed #000;
+	border-bottom: 30px solid #000;
+}
+
+.border {
+	border-bottom: 1px dotted #000;
+}
+
+.borderrad {
+	border: 20px solid black;
+	background-color: black;
+	border-radius: 10px 20px 30px 40px;
+	/* border: 20px solid yellow; */
+	margin-bottom: 50px;
+}
+
+.brdr1 {
+	/* background-color: blue; */
+	border-radius: 80% 30% 40% 30% / 30% 80% 2% 3%;
+	border: 50px solid blue;
+
+}
+
+.screenshot {
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.outline {
+	outline: auto;
+	margin: 100px;
+}
+
+.outline1 {
+	margin: 20px;
+	outline: 20px dotted black;
+}
+
+.boxshadow {
+	margin: 150px;
+	/* box-shadow: ; */
+	box-shadow: inset 10px 10px 5px 5px black, 100px 100px 10px 20px red;
+	border-radius: 10%;
+}
+
+.opacity {
+	background-color: black;
+	opacity: 0.5;
+}
+
+.visibility {
+	visibility: hidden;
+}
+
+.opacity0 {
+	opacity: 0;
+}
+
+.displaynone {
+	display: none;
+}
